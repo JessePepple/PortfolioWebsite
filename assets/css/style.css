@@ -1,0 +1,41 @@
+body,
+div,
+header,
+footer,
+section,
+html,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+main {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover,
+a.active {
+  color: #bac964 !important;
+}
+.header {
+  background: #fff;
+  text-transform: capitalize;
+  padding: 20px 40px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+ul {
+  list-style: none;
+}
+ul.links li {
+  display: inline-block;
+  padding: 10px 20px;
+}
