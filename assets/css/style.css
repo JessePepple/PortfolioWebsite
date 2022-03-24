@@ -21,7 +21,7 @@ body {
   background: #222;
   line-height: 1.2;
   font-family: sans-serif;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.4);
 }
 a {
   text-decoration: none;
@@ -101,6 +101,7 @@ ul.links li {
   font-weight: 200;
   padding-top: 20px;
   font-size: 30px;
+  color: #fff;
 }
 .portfolio {
   display: flex;
@@ -135,5 +136,9 @@ ul.links li {
   opacity: 0.7;
 }
 .capt {
+  text-align: center;
+}
+.footer {
+  padding: 3em 0;
   text-align: center;
 }
