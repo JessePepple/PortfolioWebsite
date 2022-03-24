@@ -18,9 +18,10 @@ main {
   margin: 0;
 }
 body {
-  background: #727272;
+  background: #222;
   line-height: 1.2;
   font-family: sans-serif;
+  color: #fff;
 }
 a {
   text-decoration: none;
@@ -86,4 +87,53 @@ ul.links li {
   line-height: 1.7;
   font-size: 16px;
   font-weight: bolder;
+}
+.section {
+  padding: 5em 0;
+}
+.heading {
+  margin-bottom: 30px;
+  position: relative;
+  text-align: center;
+}
+.heading h2 {
+  position: relative;
+  font-weight: 200;
+  padding-top: 20px;
+  font-size: 30px;
+}
+.portfolio {
+  display: flex;
+  margin: 20px auto;
+  max-width: 80%;
+}
+@media (max-width: 480px) {
+  .portfolio-col {
+    width: 100%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .portfolio-col {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .portfolio-col {
+    width: 33%;
+  }
+}
+.card {
+  padding: 10px 20px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  display: block !important;
+  margin-bottom: 15px;
+}
+.card:hover img {
+  opacity: 0.7;
+}
+.capt {
+  text-align: center;
 }
