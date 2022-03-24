@@ -144,3 +144,17 @@ ul.links li {
   padding: 3em 0;
   text-align: center;
 }
+
+/* contact page */
+
+.contact-main {
+  display: flex;
+}
+.contact-main .sect {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .contact-main .sect {
+    width: 50%;
+  }
+}
