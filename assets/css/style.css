@@ -132,6 +132,7 @@ ul.links li {
   height: auto;
   display: block !important;
   margin-bottom: 15px;
+  transition: 0.3s;
 }
 .card:hover img {
   opacity: 0.7;
