@@ -107,6 +107,7 @@ ul.links li {
   display: flex;
   margin: 20px auto;
   max-width: 80%;
+  flex-wrap: wrap;
 }
 @media (max-width: 480px) {
   .portfolio-col {
