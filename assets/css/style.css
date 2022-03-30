@@ -276,3 +276,18 @@ ul.contact-details li > span {
   max-width: 1200px;
   margin: 50px auto;
 }
+.meta {
+  font-weight: bold;
+  font-size: 13px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.meta a {
+  color: #fff;
+}
+.meta i {
+  margin-right: 5px;
+}
+.meta-time {
+  margin-right: 20px;
+}
