@@ -226,7 +226,6 @@ ul.contact-details li > span {
 }
 .blog-card:hover {
   top: -3px;
-  cursor: pointer;
 }
 .blog-card img {
   width: 100%;
