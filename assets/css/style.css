@@ -303,3 +303,14 @@ ul.contact-details li > span {
 .report-main p {
   margin-bottom: 20px;
 }
+.socials {
+  padding: 10px 20px;
+}
+.socials a {
+  color: #fff;
+  display: inline-block;
+  padding: 10px;
+}
+.socials i {
+  font-size: 50px;
+}
