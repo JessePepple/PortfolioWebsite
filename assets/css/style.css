@@ -240,3 +240,39 @@ ul.contact-details li > span {
   line-height: 1.5;
   color: #fff;
 }
+
+/* site report */
+
+.report-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.report-main {
+  width: 100%;
+  padding: 30px;
+  background-color: #333;
+}
+.report-aside {
+  width: 100%;
+  padding: 30px;
+}
+@media (min-width: 768px) {
+  .report-main {
+    width: 70%;
+  }
+  .report-aside {
+    width: 30%;
+  }
+}
+.report-title {
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  border-bottom: 3px solid #bac964;
+
+  margin-bottom: 20px;
+}
+.main {
+  max-width: 1200px;
+  margin: 50px auto;
+}
