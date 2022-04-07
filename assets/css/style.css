@@ -71,9 +71,15 @@ ul.links li {
     top: 100%;
     left: 0;
     right: 0;
-
+    display: block;
+    transition: all 0.4s ease-in-out;
+    height: 0;
     z-index: 50;
+    overflow: hidden;
     
+  }
+  .slide-down {
+    height: 300px !important;
   }
   ul.links li {
     display: block;
@@ -85,6 +91,7 @@ ul.links li {
   .hamburger {
     padding: 5px;
     display: inline-block;
+    cursor: pointer;
   }
   .header-active {
     margin-right: auto;
