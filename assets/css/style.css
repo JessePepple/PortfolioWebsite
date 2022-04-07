@@ -54,7 +54,10 @@ ul.links li {
   font-size: 14px;
   font-weight: 400;
 }
-.mobile, .header-active {
+ .header-active {
+  display: none;
+}
+.hamburger {
   display: none;
 }
 @media (max-width:480px)
@@ -78,8 +81,8 @@ ul.links li {
     overflow: hidden;
     
   }
-  .slide-down {
-    height: 300px !important;
+  .mobile:hover .links {
+    height: 250px !important;
   }
   ul.links li {
     display: block;
