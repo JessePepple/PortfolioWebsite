@@ -54,6 +54,49 @@ ul.links li {
   font-size: 14px;
   font-weight: 400;
 }
+.mobile, .header-active {
+  display: none;
+}
+@media (max-width:480px)
+{
+  .header {
+    position: relative;
+    display: flex;
+    padding: 10px 15px;
+  }
+  ul.links {
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+    top: 100%;
+    left: 0;
+    right: 0;
+
+    z-index: 50;
+    
+  }
+  ul.links li {
+    display: block;
+  }
+  .mobile {
+    display: block;
+    margin-left: auto;
+  }
+  .hamburger {
+    padding: 5px;
+    display: inline-block;
+  }
+  .header-active {
+    margin-right: auto;
+    display: block;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    color: #bac964 !important;
+    padding: 5px;
+  }
+}
 .banner {
   min-height: 400px;
   max-height: 600px;
